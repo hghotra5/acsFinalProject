@@ -1,6 +1,8 @@
 Step to run network
-1) Create S3 bucket with name  acs730 ( check it out in conf.tf file)
+1) Create S3 bucket with name  acs730 ( check it out in config.tf file)
 2) Run tf plan and apply
 3) go to webservers directory
 4)deploy webservers by tf init/validate/plan/apply
+6) ensure appropirate s3 and image configurations are done
+7) code should all deploy
 5) tf destroy to remove ressources
